@@ -1,71 +1,63 @@
----
+# 🛠️ Linux Troubleshooting
 
-## 📚 Troubleshooting Topics
+Hands-on Linux troubleshooting materials covering root password recovery, GRUB boot troubleshooting, and kernel/initramfs recovery.
+
+## 📚 Topics Covered
 
 ### 1. Root Password Troubleshooting
 
-Covers the process of recovering a forgotten root password,
-including:
-
 - GRUB boot menu
-- Editing the Linux boot parameters
-- Switching the root filesystem to read-write mode
-- Resetting the root password
+- Boot parameter editing
+- Root filesystem recovery
+- Root password reset
 - SELinux relabeling
-- Rebooting into the normal system
+- System reboot and recovery
 
 ### 2. GRUB Boot Troubleshooting
 
-Covers troubleshooting a system that fails to boot correctly
-or stops at the GRUB prompt.
-
-Topics include:
-
 - GRUB configuration
 - Rescue environment
-- CentOS Stream troubleshooting
-- `chroot`
+- chroot
 - GRUB installation
 - GRUB configuration regeneration
+- Boot recovery
 
 ### 3. Kernel & initramfs Troubleshooting
 
-Covers recovery when the initramfs file is removed or damaged.
-
-Topics include:
-
-- Kernel and initramfs
-- Boot failure troubleshooting
+- Kernel troubleshooting
+- initramfs recovery
 - Rescue environment
-- `chroot`
-- Regenerating initramfs
-- `dracut`
+- chroot
+- initramfs regeneration
+- dracut
 - System recovery
-
----
 
 ## 🛠️ Skills Practiced
 
 - Linux Troubleshooting
-- GRUB Troubleshooting
+- GRUB
 - Root Password Recovery
 - Kernel Troubleshooting
-- initramfs Recovery
+- initramfs
 - Rescue Environment
 - System Recovery
 - Boot Troubleshooting
-- SELinux Relabeling
+- SELinux
 
----
+## 📂 Hands-on Materials
 
-## 💻 Commands Used
+| # | Topic |
+|---|---|
+| 01 | Root Password Troubleshooting |
+| 02 | GRUB Boot Troubleshooting |
+| 03 | Kernel & initramfs Troubleshooting |
 
-```text
-mount
-passwd
-touch
-chroot
-grub2-install
-grub2-mkconfig
-dracut
-exit
+## 🎯 Purpose
+
+This repository documents my hands-on Linux troubleshooting learning and practical system recovery exercises.
+
+## 📄 Materials
+
+The repository contains PDF documentation for each troubleshooting topic.
+
+⭐ Thanks for visiting this repository!
